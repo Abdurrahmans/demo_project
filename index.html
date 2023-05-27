@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #0099cc;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.footer {
+  background-color: #61a367;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.checked {
+  color: orange;
+}
+.heading {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.user{
+   color: rgb(63, 133, 86);
+   font-size: 20px;
+}
+.more_icon{
+   padding-top: 4px;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BNG Multi Services</h1>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+          <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="heading">2 years ago</span>
+              <span class="more_icon">
+                <i class="material-icons">&#xe5d4;</i>
+                </span>
+          </div>
+          
+         <p>``I have been going to this place for the past 5 years . 
+            Md is veryprofessional and gives genuine opinion. 
+            He is awesome and very precise with his work and really 
+            been helpful throughout all these years with my tax filing and stuff. 
+            He’s always punctual and makes the whole process look so easy
+          and simple. So I wanna highly recommend this professional person to everybody.``</p>
+          <p class="user">- rukmani g</p>
+        </div>
+      
+      
+        <div class="col-4">
+          <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="heading">a year ago</span>
+              <span class="more_icon">
+                <i class="material-icons">&#xe5d4;</i>
+                </span>
+             
+          </div>
+          
+          <p>``I just want to say, Awesome staff great people and good services. 
+              Not one time I went there and they let me down. They also help you 
+              with all your needs go check them out you’ll thank me later.
+              #BNGMULTISERVICES ROCKSS!!!!!``</p>
+              <p class="user">- Basher G</p>
+        </div>
+      
+        <div class="col-4 right">
+          <div>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span> 
+              <span class="heading">a year ago</span>
+             
+              <span class="more_icon">
+                <i class="material-icons">&#xe5d4;</i>
+                </span>
+
+                <!-- <span class="material-icons">star</span>
+                <a style="font-size:24px"><i class="material-icons">more_vert</i></a> -->
+              
+          </div>
+          
+          <p>``Mashallah, Very nice and professional people! 
+              If you need help don’t hesitate to call and ask, 
+              they will help you with allthe questions you have.
+              They care for the community! Pay them a visit!!``</p>
+               <p class="user">- Tasnim A</p>
+               
+        </div>
+      </div>
+
+</div>
+
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+</body>
+</html>
